@@ -22,7 +22,7 @@ yarn build
 yarn build:watch
 ```
 
-**3. Start dev **
+**3. Start dev**
 
 > Transpile TS to JS in watch mode and run JS file using nodemon. If there is any changes in TS file, build is triggered and the app is ran again.
 
