@@ -1,0 +1,23 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Node starter template with Typescript",
+  "main": "index.ts",
+  "author": "maskeynihal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start:dev": "yarn build:watch & nodemon ./dist"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": "^18.3"
+  }
+}
